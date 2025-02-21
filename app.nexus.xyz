@@ -1,0 +1,8 @@
+1.在nexus挖矿页面右键检查，打开控制台（我的系统是英文版本，对应的是console标签页）
+2.在控制台输入以下代码可以在挖矿离线的时候拉起来
+3.对于很多人第一次在控制台贴代码会有安全提示，只需要输入allow pasting就可以继续贴代码了
+
+setInterval(()=>{
+button = document.querySelector("body > div:nth-child(3) > div.lg\\:pl-20 > main > main > div.hidden.md\\:block > div > div > div:nth-child(1) > div.mt-48 > div > div > div > div > div.relative.w-24.h-16.rounded-full.cursor-pointer.transition-colors.duration-300.ease-in-out.border-4.border-gray-400.bg-\\[\\#ffffff\\]")
+button && button.click()
+}, 1000)
